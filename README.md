@@ -1,11 +1,9 @@
-<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
-
-English | [简体中文](README_CN.md) | [Deutsch](README_GE.md) | [日本語](README_JP.md) | [한국어](README_KR.md) | [Português](README_PTBR.md) | [Français](README_FR.md) | [Español](README_ES.md)
-
 [![PyPI version](https://badge.fury.io/py/algorithms.svg)](https://badge.fury.io/py/algorithms)
 [![Open Source Helpers](https://www.codetriage.com/keon/algorithms/badges/users.svg)](https://www.codetriage.com/keon/algorithms)
 [![Build Status](https://travis-ci.org/keon/algorithms.svg?branch=master)](https://travis-ci.org/keon/algorithms)
 [![Coverage Status](https://coveralls.io/repos/github/keon/algorithms/badge.svg?branch=master)](https://coveralls.io/github/keon/algorithms?branch=master)
+
+<p align="center"><img src="https://raw.githubusercontent.com/keon/algorithms/master/docs/source/_static/logo/logotype1blue.png"></p>
 
 Pythonic Data Structures and Algorithms
 =========================================
@@ -115,6 +113,8 @@ If you want to uninstall algorithms, it is as simple as:
     - [binary_gap](algorithms/bit/binary_gap.py)
 - [calculator](algorithms/calculator)
     - [math_parser](algorithms/calculator/math_parser.py)
+- [compression](algorithms/compression)
+    - [huffman_coding](algorithms/compression/huffman_coding.py)
 - [dfs](algorithms/dfs)
     - [all_factors](algorithms/dfs/all_factors.py)
     - [count_islands](algorithms/dfs/count_islands.py)
@@ -214,12 +214,13 @@ If you want to uninstall algorithms, it is as simple as:
     - [copy_transform](algorithms/matrix/copy_transform.py)
     - [count_paths](algorithms/matrix/count_paths.py)
     - [matrix_rotation.txt](algorithms/matrix/matrix_rotation.txt)
+    - [matrix_multiplication](algorithms/matrix/multiply.py)
     - [rotate_image](algorithms/matrix/rotate_image.py)
     - [search_in_sorted_matrix](algorithms/matrix/search_in_sorted_matrix.py)
     - [sparse_dot_vector](algorithms/matrix/sparse_dot_vector.py)
     - [sparse_mul](algorithms/matrix/sparse_mul.py)
     - [spiral_traversal](algorithms/matrix/spiral_traversal.py)
-	- [crout_matrix_decomposition](algorithms/matrix/crout_matrix_decomposition.py
+	- [crout_matrix_decomposition](algorithms/matrix/crout_matrix_decomposition.py)
 - [queues](algorithms/queues)
     - [max_sliding_window](algorithms/queues/max_sliding_window.py)
     - [moving_average](algorithms/queues/moving_average.py)
@@ -341,6 +342,7 @@ If you want to uninstall algorithms, it is as simple as:
     - [trie](algorithms/tree/trie)
         - [add_and_search](algorithms/tree/trie/add_and_search.py)
         - [trie](algorithms/tree/trie/trie.py)
+    - [b_tree](algorithms/tree/b_tree.py)
     - [binary_tree_paths](algorithms/tree/binary_tree_paths.py)
     - [bin_tree_to_list](algorithms/tree/bin_tree_to_list.py)
     - [deepest_left](algorithms/tree/deepest_left.py)
@@ -370,14 +372,6 @@ If you want to uninstall algorithms, it is as simple as:
     - [nearest neighbor classification](algorithms/machine-learning/nearest_neighbor.py)
 
 ## Contributors
-The repo is maintained by
 
-* [Keon Kim](https://github.com/keon)
-* [Rahul Goswami](https://github.com/goswami-rahul)
-* [Christian Bender](https://github.com/christianbender)
-* [Ankit Agarwal](https://github.com/ankit167)
-* [Hai Hoang Dang](https://github.com/danghai)
-* [Saad](https://github.com/SaadBenn)
-
-And thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
+Thanks to [all the contributors](https://github.com/keon/algorithms/graphs/contributors)
 who helped in building the repo.
