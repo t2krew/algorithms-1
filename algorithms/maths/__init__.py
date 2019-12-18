@@ -14,3 +14,6 @@ from .pythagoras import *
 from .rabin_miller import *
 from .rsa import *
 from .combination import *
+from .cosine_similarity import *
+from .find_order_simple import *
+from .find_primitive_root_simple import *
